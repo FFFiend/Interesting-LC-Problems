@@ -10,7 +10,6 @@ class Solution:
             checker = False
             for i in range(len(test)-1):
                 val += test[i]
-                print(val)
                 if (int(val) + int(test[i+1:])==target):
                     return True
                 else:
